@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glicobalance - Protocolo Natural</title>
+
+    <script>
+        !function(f,b,e,v,n,t,s)
+        {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+        n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+        if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+        n.queue=[];t=b.createElement(e);t.async=!0;
+        t.src=v;s=b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t,s)}(window, document,'script',
+        'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '1427032525828675');
+        fbq('track', 'PageView');
+    </script>
+    <noscript>
+        <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1427032525828675&ev=PageView&noscript=1"/>
+    </noscript>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <style>
+        .bg-urgent { background-color: #e11d48; }
+        .btn-checkout { background-color: #16a34a; }
+        
+        /* Classe para o delay do botão */
+        .hidden-btn { display: none !important; }
+        
+        @keyframes pulse { 0% { transform: scale(1); } 50% { transform: scale(1.05); } 100% { transform: scale(1); } }
+        .pulse { animation: pulse 2s infinite; }
+        
+        #sales-pop {
+            position: fixed;
+            bottom: 20px;
+            left: 20px;
+            background: white;
+            padding: 12px 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+            z-index: 1000;
+            display: none;
+            border-left: 5px solid #e11d48;
+            font-size: 14px;
+            animation: slideIn 0.5s ease-out;
+        }
+        @keyframes slideIn { from { transform: translateX(-110%); } to { transform: translateX(0); } }
+        
+        #vid-container vturb-smartplayer {
+            aspect-ratio: 16/9;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 font-sans text-gray-900">
+
+    <div class="bg-urgent text-white text-center py-2 px-4 text-xs md:text-sm font-bold sticky top-0 z-50">
+        ⚠️ Oferta válida até hoje (<span id="data-atual"></span>)! Tempo restante: <span id="timer">29:59</span> ✅
+    </div>
+
+    <div id="sales-pop">
+        <span id="pop-content">🔴 Carregando notificações...</span>
+    </div>
+
+    <header class="py-6 bg-white text-center shadow-sm">
+        <h1 class="text-2xl font-extrabold tracking-tight text-gray-800 uppercase">Glicobalance</h1>
+    </header>
+
+    <main class="max-w-3xl mx-auto px-4 py-8">
+        
+        <h2 class="text-2xl md:text-3xl font-bold text-center mb-6 leading-tight">
+            Descubra o <span class="text-red-600">segredo natural</span> que nenhum hospital vai te contar para equilibrar o açúcar 😱
+        </h2>
+
+        <div class="flex justify-center items-center gap-2 mb-4">
+            <span class="flex h-3 w-3 relative">
+                <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-red-400 opacity-75"></span>
+                <span class="relative inline-flex rounded-full h-3 w-3 bg-red-500"></span>
+            </span>
+            <p class="text-sm font-semibold text-gray-600"><span id="online-count">412</span> pessoas estão assistindo agora</p>
+        </div>
+
+        <div class="bg-black rounded-xl overflow-hidden shadow-2xl mb-8">
+            <div id="vid-container" class="p-4" style="width:100%; position:relative;">
+                
+                <div class="text-center mb-4">
+                    <p class="text-gray-300 font-medium italic text-sm md:text-base px-2">
+                        "A oferta está a expirar! Livre-se da diabete e garanta agora o seu lugar no Protocolo Glicobalance. Clique no botão abaixo para o acesso imediato!"
+                    </p>
+                </div>
+                
+                <vturb-smartplayer id="vid-6a3134e3bef5049dddc18260" style="display: block; margin: 0 auto; width: 100%;"></vturb-smartplayer>
+                <script type="text/javascript">
+                    var s=document.createElement("script");
+                    s.src="https://scripts.converteai.net/181e166e-78db-49c2-981f-679e3d64d0c4/players/6a3134e3bef5049dddc18260/v4/player.js";
+                    s.async=!0;
+                    document.head.appendChild(s);
+                </script>
+            </div>
+        </div>
+
+        <div id="cta-button" class="hidden-btn text-center mb-12 max-w-xl mx-auto pulse">
+            <a href="https://pay.tutora.co.mz/36ee2190aad545709fb6deb43e226d9d" class="btn-checkout text-white font-extrabold py-5 px-8 rounded-2xl text-xl md:text-2xl shadow-2xl transition-all block hover:brightness-110 hover:scale-105 transform">
+                🚀 SIM! QUERO PAGAR AGORA OS 197 MT
+            </a>
+            <p class="text-xs text-gray-500 mt-2">Acesso imediato após a confirmação</p>
+        </div>
+
+        <section class="bg-white rounded-2xl p-6 shadow-md mb-12">
+            <h3 class="font-bold text-lg mb-6 border-b pb-2">Comentários (310)</h3>
+            
+            <div class="flex gap-4 border-b pb-4 mb-4">
+                <div class="w-12 h-12 rounded-full bg-gray-300 flex items-center justify-center font-bold text-gray-600 flex-shrink-0">EM</div>
+                <div>
+                    <p class="font-bold text-blue-600">Eduardo Matsinhe</p>
+                    <p class="text-sm">Sofria com a diabetes há anos e nada funcionava. Este guia foi uma virada na minha vida.</p>
+                    <p class="text-xs text-gray-400 mt-1">Curtir · Responder · 1 min</p>
+                </div>
+            </div>
+
+            <div class="flex gap-4 border-b pb-4 mb-4">
+                <div class="w-12 h-12 rounded-full bg-gray-300 flex items-center justify-center font-bold text-gray-600 flex-shrink-0">SN</div>
+                <div>
+                    <p class="font-bold text-blue-600">Sónia Nhaca</p>
+                    <p class="text-sm">Gente, funciona mesmo! O meu médico ficou impressionado com os resultados.</p>
+                    <p class="text-xs text-gray-400 mt-1">Curtir · Responder · 5 min</p>
+                </div>
+            </div>
+
+            <div class="flex gap-4 border-b pb-4 mb-4">
+                <div class="w-12 h-12 rounded-full bg-gray-300 flex items-center justify-center font-bold text-gray-600 flex-shrink-0">RM</div>
+                <div>
+                    <p class="font-bold text-blue-600">Ricardo Mondlane</p>
+                    <p class="text-sm">Em poucos dias já senti diferença na energia. Super recomendo!</p>
+                    <p class="text-xs text-gray-400 mt-1">Curtir · Responder · 12 min</p>
+                </div>
+            </div>
+            
+            <div class="mt-6 flex items-center gap-2">
+                <input type="text" id="comentario-input" placeholder="Escreva um comentário..." class="w-full border rounded-lg p-3 text-sm bg-gray-50 focus:outline-none">
+                <button onclick="enviarSimples()" id="btn-enviar" class="bg-blue-600 text-white font-bold py-3 px-4 rounded-lg text-sm hover:bg-blue-700 transition-colors">
+                    Comentar
+                </button>
+            </div>
+            <p id="feedback" class="hidden text-xs text-gray-500 mt-2 text-right">Enviado para análise...</p>
+        </section>
+    </main>
+
+    <footer class="bg-white border-t py-12 text-center text-gray-500 text-xs px-6">
+        <p class="font-bold mb-2">Projeto Vida Livre da Diabetes</p>
+        <p class="mb-4">Cuidar da sua saúde é a nossa prioridade. Garanta já o seu guia e transforme sua vida hoje!</p>
+        <div class="flex justify-center gap-4 flex-wrap underline">
+            <span>Termos</span> <span>Privacidade</span> <span>Contato</span>
+        </div>
+    </footer>
+
+    <script>
+        // Data e Timer (30 min)
+        document.getElementById('data-atual').innerText = new Date().toLocaleDateString('pt-BR');
+        let time = 1799; 
+        setInterval(() => {
+            const min = Math.floor(time / 60);
+            const sec = time % 60;
+            document.getElementById('timer').innerText = `${min < 10 ? '0' : ''}${min}:${sec < 10 ? '0' : ''}${sec}`;
+            if (time > 0) time--;
+        }, 1000);
+
+        // Contador Online
+        let count = 412;
+        setInterval(() => {
+            count += Math.floor(Math.random() * 7) - 3;
+            if (count < 380) count = 385;
+            document.getElementById('online-count').innerText = count;
+        }, 3000);
+
+        // Delay do Botão (20 segundos)
+        setTimeout(() => { 
+            document.getElementById('cta-button').classList.remove('hidden-btn'); 
+        }, 20000);
+
+        // Pop-up de Vendas
+        const vendas = [
+            "🔴 Maria de Nampula acabou de comprar há 1 min.",
+            "🔴 José de Maputo acabou de comprar há 3 min.",
+            "🔴 Carlos da Beira acabou de comprar há 2 min.",
+            "🔴 Ana de Tete acabou de comprar há 5 min.",
+            "🔴 Samuel de Quelimane acabou de comprar há 1 min.",
+            "🔴 Helena de Pemba acabou de comprar há 4 min."
+        ];
+
+        function showSalesPop() {
+            document.getElementById('pop-content').innerText = vendas[Math.floor(Math.random() * vendas.length)];
+            const pop = document.getElementById('sales-pop');
+            pop.style.display = 'block';
+            
+            setTimeout(() => { 
+                pop.style.display = 'none'; 
+                let proximoTempo = Math.floor(Math.random() * (25000 - 12000 + 1)) + 12000;
+                setTimeout(showSalesPop, proximoTempo);
+            }, 5000); 
+        }
+        setTimeout(showSalesPop, 7000);
+
+        // Enviar Comentário
+        function enviarSimples() {
+            const input = document.getElementById('comentario-input');
+            const feedback = document.getElementById('feedback');
+            if(input.value.trim() !== "") {
+                input.value = "";
+                feedback.classList.remove('hidden');
+                setTimeout(() => { feedback.classList.add('hidden'); }, 3000);
+            }
+        }
+    </script>
+</body>
+</html>
